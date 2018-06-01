@@ -16,5 +16,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.extensions    = ["ext/laag/libtiff/extconf.rb"]
 
-  spec.add_runtime_dependency 'laag', '~> 0.4', '>= 0.4.4'
+  spec.add_runtime_dependency 'laag',    '~> 0.4', '>= 0.4.4'
+  spec.add_runtime_dependency 'laag-xz', '~> 5.2', '>= 5.2.4'
 end
